@@ -1,15 +1,18 @@
 .custom-navbar {
-    background-color: #212529;
+    background-color: #0D0E10;
     box-sizing: border-box;
     width: 100%;
+    padding: 10px 0;
 }
 
 .custom-navbar a {
     color: #fff !important;
-    border: 2px solid #212529;
+    border: 2px solid #0D0E10;
+    padding: 3px 0;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 .custom-navbar a:hover {
-    border-bottom: 2px solid #F99C2E;
+    border-bottom: 2px solid #F99C2E !important;
 }
