@@ -4,10 +4,14 @@
     color: #fff;
 }
 
-.copyright, .social {
+.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
+}
+
+.social {
     height: 250px;
 }
 
@@ -29,4 +33,11 @@
 
 .footer-social li a:hover {
     border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .copyright, .social {
+        height: auto;
+        margin: 25px 0;
+    }
 }

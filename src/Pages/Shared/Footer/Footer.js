@@ -19,7 +19,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-6 social d-flex justify-content-around">
+                    <div className="col-md-6 social d-flex justify-content-around align-items-center">
                         <div className="footer-social">
                             <li>
                                 <a href="#facebook">
