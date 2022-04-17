@@ -3,6 +3,7 @@
     height: calc(100vh - 60px);
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
+    background-position: center;
 }
 
 .banner-text-container {
@@ -39,4 +40,10 @@
 .contact-btn:hover {
     background-color: #F99C2E;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-text-container h1 {
+        font-size: 2.5rem;
+    }
 }
