@@ -1,0 +1,32 @@
+.footer {
+    background-color: #212529;
+    min-height: 250px;
+    color: #fff;
+}
+
+.copyright, .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.copyright h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-social li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.footer-social li a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #212529;
+}
+
+.footer-social li a:hover {
+    border-bottom: 2px solid white;
+}
