@@ -2,14 +2,14 @@
     {
       "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Personal Training",
-      "price": 62,
+      "price": 169,
       "img": "https://i.ibb.co/58zHtD1/personal-training.png",
       "description": "I provide Personal Training for the people who can't remain on the path alone. I will guide you and make the path so much easier day by day."
     },
     {
       "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
       "name": "Physical Therapy",
-      "price": 29,
+      "price": 89,
       "img": "https://i.ibb.co/q0Q6S0q/physical-therapy.png",
       "description": "I can do Physical Therapy. No matter how many clients I see during the day, each one deserves my full physical energy and an unflagging positive outlook."
     },
@@ -23,7 +23,7 @@
     {
       "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
       "name": "Nutrition Plan",
-      "price": 32,
+      "price": 39,
       "img": "https://i.ibb.co/tqJsVzV/nutriton-plan.png",
       "description": "I will give you a Professional diet. Also, I will give you some Nutrition plans based on your Physique. I got suitable plans for people of all ages and mentality."
     }

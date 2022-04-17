@@ -5,17 +5,14 @@ import "./Service.css";
 const Service = ({ service }) => {
     const { name, img, price, description } = service;
     return (
-        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            <Card style={{ width: "24rem" }}>
-                <Card.Img variant="top" src={img} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        {description}
-                    </Card.Text>
-                    <button className="book-btn">Book now</button>
-                </Card.Body>
-            </Card>
+        <div className="service-card">
+            <img className="img-fluid" src={img} alt="" />
+            <div className="service-details">
+                <h3>{name}</h3>
+                <p className="lead">${price}/week</p>
+                <p className="lead">{description}</p>
+                <button className="book-btn">Book Now</button>
+            </div>
         </div>
     );
 };

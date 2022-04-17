@@ -2,8 +2,37 @@
     background-color: #F99C2E;
     outline: 0;
     border: 0;
-    width: 100%;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-top: 20px;
+}
+
+.service-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+
+.service-card img {
+    width: 40%;
+}
+
+.service-details {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .service-card {
+        flex-direction: column;
+    }
+    .service-card img {
+        width: 100%;
+    }
+    .service-details {
+        margin-top: 20px;
+        padding: 10px;
+    }
 }
