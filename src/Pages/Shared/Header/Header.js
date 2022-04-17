@@ -16,7 +16,7 @@ const Header = () => {
                         GYM FREAK
                     </Navbar.Brand>
                     <Navbar.Toggle
-                        style={{ backgroundColor: "#F99C2E" }}
+                        style={{ border: "1px solid #000" }}
                         aria-controls="responsive-navbar-nav"
                     />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,6 +32,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/about">
                                 About me
                             </Nav.Link>
+                            {/* Logout and Login */}
                             {user ? (
                                 <button onClick={() => signOut(auth)} className="btn btn-outline-dark">Logout</button>
                             ) : (
