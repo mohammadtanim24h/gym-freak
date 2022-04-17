@@ -1,0 +1,7 @@
+.about {
+    min-height: calc(100vh - 310px);
+}
+
+.about-title {
+    font-family: 'Open Sans', sans-serif;
+}

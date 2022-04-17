@@ -6,7 +6,7 @@ const Blogs = () => {
         <div className="container my-4">
             <div className="blogs-container">
                 <div className="blog">
-                    <h3>Difference between Authorization and Authentication</h3>
+                    <h4>Difference between Authorization and Authentication</h4>
                     <p>
                         Authentication and Authorization sound similar but they
                         are not similar. Authentication is the process of
@@ -19,7 +19,7 @@ const Blogs = () => {
                     </p>
                 </div>
                 <div className="blog">
-                    <h3>Why am I using Firebase?</h3>
+                    <h4>Why am I using Firebase? What other options do I have to implement authentication?</h4>
                     <p>
                         I am using Firebase to implement Authentication in my
                         Website. I also use it for hosting. Firebase is a tool
@@ -31,10 +31,10 @@ const Blogs = () => {
                     </p>
                 </div>
                 <div className="blog">
-                    <h3>
+                    <h4>
                         What other services does Firebase provide other than
                         authentication
-                    </h3>
+                    </h4>
                     <p>
                         Firebase is a platform developed by Google that provides
                         a lot of services to its users. Most of them are free to
