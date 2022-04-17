@@ -1,13 +1,14 @@
 .custom-navbar {
-    background-color: #0D0E10;
+    background-color: #fff;
     box-sizing: border-box;
     width: 100%;
     padding: 10px 0;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
 }
 
 .custom-navbar a {
-    color: #fff !important;
-    border: 2px solid #0D0E10;
+    color: #000 !important;
+    border: 2px solid #fff;
     padding: 3px 0;
     margin-right: 20px;
     text-decoration: none;

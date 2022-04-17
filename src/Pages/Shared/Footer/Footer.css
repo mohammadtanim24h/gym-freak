@@ -1,5 +1,5 @@
 .footer {
-    background-color: #0D0E10;
+    background-color: #242B2E;
     min-height: 250px;
     color: #fff;
 }
@@ -28,7 +28,7 @@
 .footer-social li a {
     text-decoration: none;
     color: #fff;
-    border-bottom: 2px solid #0D0E10;
+    border-bottom: 2px solid #242B2E;
 }
 
 .footer-social li a:hover {
