@@ -1,11 +1,21 @@
 .book-btn {
-    background-color: #F99C2E;
+    background-color: #f79216;
     outline: 0;
     border: 0;
     color: white;
+    border: 1px solid #f79216;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-btn:hover {
+    background-color: transparent;
+    color: #f08a0f;
 }
 
 .service-card {
@@ -14,6 +24,13 @@
     align-items: center;
     margin: 20px auto;
     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-right: 5px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    border-right: 5px solid #F99C2E;
+    transform: translateY(-3px);
 }
 
 .service-card img {
