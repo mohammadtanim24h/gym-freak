@@ -8,35 +8,55 @@
 
 .benefit-title {
     text-align: center;
-    padding-top: 120px;
-    box-sizing: border-box;
-    font-size: 4rem;
+    padding-top: 80px;
+    font-size: 3.5rem;
     color: #fff;
-    text-shadow: 1px 0px 1px #242B2E, 0px 1px 1px #333, 2px 1px 1px #242B2E,
-        1px 2px 1px #333, 3px 2px 1px #242B2E, 2px 3px 1px #333,
-        4px 3px 1px #242B2E, 3px 4px 1px #333, 5px 4px 1px #242B2E,
-        4px 5px 1px #333, 6px 5px 1px #242B2E, 5px 6px 1px #333,
-        7px 6px 1px #242B2E;
+    padding-bottom: 40px;
 }
 
-.benefits {
-    width: 100%;
-    height: 500px;
+.benefit-card-team, .benefit-card-gym {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.benefit-card {
-    box-shadow: 20px 10px #fff;
+.benefits h2, .benefits p {
+    color: white;
+    margin: 0 20px;
 }
 
 .benefits img {
-    width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 .benefits h2 {
     text-align: center;
-    margin-top: 30px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .benefits-section {
+        background-image: none;
+        background-color: #fff;
+        background-blend-mode: normal;
+    }
+    .benefit-card-team, .benefit-card-gym {
+        flex-direction: column;
+    }
+    .benefit-title {
+        font-size: 2.5rem;
+        text-shadow: none;
+        color: #333;
+        padding-top: 0;
+    }
+    .benefits h2, .benefits p {
+        color: #333;
+        font-size: 22px;
+    }
+    .benefit-card-gym .free {
+        order: 3;
+        margin-bottom: 0;
+    }
 }
