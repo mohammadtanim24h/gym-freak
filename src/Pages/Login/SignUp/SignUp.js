@@ -13,6 +13,7 @@ const SignUp = () => {
       ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
 
     const [error, setError] = useState("");
+    // Signup 
     const handleSignUp = (e) => {
         e.preventDefault();
         const name = e.target.name.value;
@@ -29,6 +30,7 @@ const SignUp = () => {
         }
     }
     const navigate = useNavigate();
+    // Redirection after user is created
     useEffect(() => {
         if(user){
             navigate('/')

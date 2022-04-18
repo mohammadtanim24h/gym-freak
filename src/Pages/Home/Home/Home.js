@@ -14,7 +14,7 @@ const Home = () => {
                                 AND <span className="theme-text">STRONG</span>
                             </h1>
                             <h3 className="text-light">
-                                With Steven AKA the{" "}
+                                With Tanim AKA the{" "}
                                 <span className="theme-text">GYM FREAK</span>
                             </h3>
                             <button className="contact-btn">
