@@ -42,7 +42,7 @@ const SignUp = () => {
             <div className='w-100'>
                 <form onSubmit={handleSignUp} className='custom-form mt-4'>
                     <h2 className='form-title'>Sign up</h2>
-                    <input type="text" name='name' placeholder='Name' required/>
+                    <input type="text" name='name' placeholder='Name (Optional)'/>
                     <input type="email" name='email' placeholder='Email' required/>
                     <input type="password" name="password" placeholder='Password' required/>
                     <input type="password" name="confirmPassword" placeholder='Confirm Password' required/>
