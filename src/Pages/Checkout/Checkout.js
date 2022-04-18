@@ -6,9 +6,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Checkout = () => {
+    // Getting userinfo using AuthState
     const [user] = useAuthState(auth);
     const [message, setMessage] = useState();
 
+    // Checkout form submit function
     const handleCheckout = (e) => {
         e.preventDefault();
         setMessage("Thanks for Booking");

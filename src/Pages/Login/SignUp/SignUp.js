@@ -6,6 +6,7 @@ import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const SignUp = () => {
+    // create user hook
     const [
         createUserWithEmailAndPassword,
         user,

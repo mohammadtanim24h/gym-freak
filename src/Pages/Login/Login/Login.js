@@ -39,11 +39,12 @@ const Login = () => {
         }
     }, [user])
 
-    //loading spinner
+    // loading spinner
     if(loading){
         return <Loading></Loading>
     }
 
+    // reset password function
     const resetPassword = async () => {
         const email = emailRef.current.value;
         if(email) {

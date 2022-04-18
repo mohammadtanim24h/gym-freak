@@ -32,7 +32,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/about">
                                 About me
                             </Nav.Link>
-                            {/* Logout and Login */}
+                            {/* Conditional Rendering of Logout and Login */}
                             {user ? (
                                 <button onClick={() => signOut(auth)} className="btn btn-outline-dark">Logout</button>
                             ) : (

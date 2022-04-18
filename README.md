@@ -6,7 +6,7 @@
 
 * This is a website about a Gym trainer, who provides many services to his clients.
 
-* On the Homepage, there is a banner, some services, benefits and a footer.
+* On the Homepage, there is a navbar, banner, some services, benefits and a footer.
 
 * When you hover over the services there is a nice transformation effect. Every service has a button called "Book Now". If you click it, it will take you to the checkout page. If you are not logged in, you will be redirected to the login page and from there you can log in from your account and after login, you will be redirected back to the checkout page.
 
@@ -14,7 +14,7 @@
 
 * There is an About section about me and my goal.
 
-* Finally, there is a login section. From there you can toggle between login and signup. After creating your account you will receive a verification email in your inbox. Then you can verify your email. There is a link to reset your password if you ever forget it. You can also sign in using Google and Github. The Facebook login doesn't work because I haven't implemented the feature yet.
+* Finally, there is a login section. From there you can toggle between login and signup. You can sign up using your email and password. The same goes for login. After creating your account you will receive a verification email in your inbox. You will get notified about the email by a toast. Then you can verify your email. There is a link to reset your password if you ever forget it. You can also sign in using Google and Github. The Facebook login doesn't work because I haven't implemented the feature yet.
 
 ## Technologies used : 
 

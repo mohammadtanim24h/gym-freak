@@ -3,6 +3,7 @@ import Service from "./Service/Service";
 import "./Services.css";
 
 const Services = () => {
+    // Get and set services array
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch("services.json")
