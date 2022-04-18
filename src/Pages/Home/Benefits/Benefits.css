@@ -9,8 +9,9 @@
 .benefit-title {
     text-align: center;
     padding-top: 80px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
+    font-style: italic;
     padding-bottom: 40px;
 }
 
@@ -18,7 +19,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.benefit-card-team {
     margin-bottom: 20px;
+}
+
+.benefit-card-gym {
+    padding-bottom: 20px;
 }
 
 .benefits h2, .benefits p {
@@ -27,13 +35,13 @@
 }
 
 .benefits img {
-    max-width: 500px;
+    width: 500px;
     border-radius: 10px;
 }
 
 .benefits h2 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,13 +55,13 @@
     }
     .benefit-title {
         font-size: 2.5rem;
-        text-shadow: none;
         color: #333;
         padding-top: 0;
     }
     .benefits h2, .benefits p {
         color: #333;
         font-size: 22px;
+        margin: 10px 0;
     }
     .benefit-card-gym .free {
         order: 3;
