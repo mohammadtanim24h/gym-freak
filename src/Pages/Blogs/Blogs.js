@@ -33,7 +33,7 @@ const Blogs = () => {
                 <div className="blog">
                     <h4>
                         What other services does Firebase provide other than
-                        authentication
+                        authentication?
                     </h4>
                     <p>
                         Firebase is a platform developed by Google that provides
