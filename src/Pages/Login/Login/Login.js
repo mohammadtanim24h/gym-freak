@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
 
@@ -32,6 +33,11 @@ const Login = () => {
         }
     }, [user])
 
+    //loading spinner
+    if(loading){
+        return <Loading></Loading>
+    }
+
     return (
         <div className='d-flex justify-content-center mt-5 login-container mx-auto'>
             <div className='w-100'>
@@ -41,7 +47,7 @@ const Login = () => {
                     <input type="password" name="password" placeholder='Password' required/>
                     <p>Forgot password? <span style={{cursor: 'pointer'}} className='primary-color'>Reset</span></p>
                     <button className='submit-btn' type='submit'>Login</button>
-                    {error && <p className='text-danger'>{error.message}</p> }
+                    {error && <p className='text-danger mt-3'>{error.message}</p> }
                     <p className='mt-3'>New to Gym Freak? <Link className='text-decoration-none' style={{color: 'orange', cursor: 'pointer'}} to='/signup'>Sign Up</Link> </p>
                     <SocialLogin></SocialLogin>
                 </form>

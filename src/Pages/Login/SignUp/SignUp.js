@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const SignUp = () => {
@@ -36,6 +37,11 @@ const SignUp = () => {
             navigate('/')
         }
     }, [user])
+
+    // loading spinner
+    if(loading){
+        return <Loading></Loading>
+    }
 
     return (
         <div className='d-flex justify-content-center mt-5 login-container mx-auto'>

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import google from '../../../images/icons8-google.png';
 import facebook from '../../../images/icons8-facebook.png';
 import github from '../../../images/icons8-github.png';
 import auth from '../../../firebase.init';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const SocialLogin = () => {
     // Google sign in
@@ -11,6 +12,16 @@ const SocialLogin = () => {
 
     // Github sign in 
     const [signInWithGithub, gitUser, gitLoading, gitError] = useSignInWithGithub(auth);
+    
+    // Navigate after login
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || "/";
+    useEffect(() => {
+        if(user || gitUser){
+            navigate(from, { replace: true });
+        }
+    }, [user, gitUser])
 
     return (
         <div className='my-3'>

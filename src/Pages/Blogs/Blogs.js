@@ -26,8 +26,8 @@ const Blogs = () => {
                         used by a lot of developers around the world. It offers
                         a lot of services but Authentication is the main thing
                         it provides. Auth0, MongoDB, Okta, Passport, JSON Web
-                        Token and Keycloak are some alternatives we can use to
-                        implement Authentication when we are not using Firebase.
+                        Token and Keycloak are some alternatives I can use to
+                        implement Authentication when I am not using Firebase.
                     </p>
                 </div>
                 <div className="blog">
@@ -39,9 +39,9 @@ const Blogs = () => {
                         Firebase is a platform developed by Google that provides
                         a lot of services to its users. Most of them are free to
                         some extent depending on the usage of the service.
-                        Firebase provides Authentication, Realtime Database,
+                        Firebase provides Realtime Database,
                         Firestore, Storage, Hosting, Machine Learning, and much
-                        more.
+                        more other than Authentication.
                     </p>
                 </div>
             </div>
