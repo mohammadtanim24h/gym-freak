@@ -8,7 +8,7 @@
 
 * On the Homepage, there is a navbar, banner, some services, benefits and a footer.
 
-* When you hover over the services there is a nice transformation effect. Every service has a button called "Book Now". If you click it, it will take you to the checkout page. If you are not logged in, you will be redirected to the login page and from there you can log in from your account and after login, you will be redirected back to the checkout page.
+* When you hover over the services there is a nice transformation effect. Every service has a button called "Book Now". If you click it, it will take you to the checkout page. If you are not logged in, you will be redirected to the login page and from there you can log in from your account and after login, you will be redirected back to the checkout page. After login you can find a button to logout in the the navbar.
 
 * From the Navbar, you can navigate to other pages. The blogs page has the answer to three important questions about Firebase and Authentication.
 
